@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive ABCs of CSS</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="welcome-box">
+      <h1>
+        Welcome to the Interactive ABCs of CSS Technology Learning Website
+      </h1>
+    </div>
+    <div class="instructions-box">
+      <p>
+        Click on the buttons below to reveal and learn the CSS technology
+        features of the corresponding letters.
+      </p>
+    </div>
+    <div class="buttons">
+      <button class="letter-btn" data-letter="A">A</button>
+      <button class="letter-btn" data-letter="B">B</button>
+      <button class="letter-btn" data-letter="C">C</button>
+    </div>
+    <div class="result-container">
+      <div class="result" id="result-A">
+        <img src="assets/img/css-letter-a.png" alt="Animation Example" />
+        <button class="hide-btn" data-letter="A">Hide Result</button>
+      </div>
+      <div class="result" id="result-B">
+        <img src="assets/img/css-letter-b.png" alt="Box Model Example" />
+        <button class="hide-btn" data-letter="B">Hide Result</button>
+      </div>
+      <div class="result" id="result-C">
+        <img src="assets/img/css-letter-c.png" alt="Clip Path Example" />
+        <button class="hide-btn" data-letter="C">Hide Result</button>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

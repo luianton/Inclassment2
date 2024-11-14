@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Welcome Box */
+.welcome-box {
+  background-color: #fff;
+  border: 2px solid #ffa500;
+  padding: 15px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Instructions Box */
+.instructions-box {
+  background-color: #fff;
+  border: 2px solid #ffa500;
+  padding: 15px;
+  margin: 0 auto 30px auto;
+  width: 80%;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styles */
+.buttons {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.letter-btn {
+  background-color: #fff;
+  border: 2px solid #ffa500;
+  padding: 15px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 5px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.letter-btn:hover {
+  background-color: #ffa500;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Result */
+.result-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+/* Per Box Result */
+.result {
+  display: none;
+  flex: 1 1 calc(33.33% - 40px);
+  max-width: 300px;
+  margin: 0;
+  padding: 15px;
+  border: 2px solid #ffa500;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Result Images */
+.result img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Hide Result Button */
+.hide-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.hide-btn:hover {
+  background-color: #0056b3;
+}
